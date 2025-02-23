@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DuckLang - The Fun Programming Language</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="interpreter.jsx" defer></script>
 </head>
 <body>
 
@@ -42,7 +43,15 @@
         <h2>Getting Started with DuckLang</h2>
         <p>Here’s your chance to write your first DuckLang program! Start by writing some funny code and experience the humor of DuckLang syntax.</p>
         <p>Check out our documentation to begin coding with DuckLang and discover how its language and syntax make programming enjoyable!</p>
-        <a href="main.py">Explore the Docs</a>
+        <a href="main.py" download="main.py">Download main.py</a>
+    </section>
+
+    <!-- Code Editor & Execution -->
+    <section id="code-editor">
+        <h2>Try DuckLang Online</h2>
+        <textarea id="ducklang-code" placeholder="Write your DuckLang code here..."></textarea>
+        <button onclick="executeCode()">Run Code</button>
+        <pre id="output"></pre>
     </section>
 
     <!-- Contribution Section -->
@@ -58,6 +67,9 @@
         <p>If you have any questions or feedback, feel free to open an issue or contact the project maintainer.</p>
         <p>Show some love by starring the repository!</p>
         <p>Maintainer: Puskar Roy 🖋️</p>
+        <a href="https://github.com/Puskar-Roy/DuckLang" target="_blank">
+            <img src="https://miro.medium.com/v2/resize:fit:1100/1*CWFkh5z8oa6dZfn5_gkKKQ.jpeg" alt="GitHub" width="40px">
+        </a>
     </section>
 
     <!-- Footer Section -->
